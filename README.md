@@ -2,47 +2,45 @@
   <img src=".github/assets/banner%20IKA.png" alt="IKA Banner" width="100%">
 </p>
 
-<h1 align="center">IKA – FysonWorks IDE</h1>
-<p align="center">A modern, lightweight code editor created by <b>Caleb / FysonWorks</b>.</p>
+# IKA – FysonWorks IDE
+
+IKA is a modern, lightweight code editor developed by Caleb (FysonWorks).  
+It includes Python and HTML editing, a live preview system, chunk-based editing, a snippet manager, and a minimal dark interface.
 
 ---
 
-##  Features
+## Features
 
-###  Modern Dark UI
-IKA uses a custom dark theme with clean typography and an easy-to-read layout.
+### Modern Dark UI
+IKA uses a custom dark interface designed for clarity and focus.
 
-###  Multi-Language Support
-- **Python**
-- **HTML** (with live preview panel)
+### Python and HTML Support
+The editor switches between Python and HTML modes.  
+HTML mode includes a live preview panel.
 
-###  Live HTML Preview
-As you type HTML, the preview updates automatically.
+### Live HTML Preview
+The preview updates automatically as you type, allowing instant visual feedback.
 
-###  Chunk Editor
-Break your code into pieces (chunks), edit separately, then **stitch** them together into the main editor.
+### Chunk Editor
+Code can be split into multiple "chunks" which can be individually edited and then stitched together into a full script.
 
-###  Snippet Manager
-Save commonly used code blocks and re-use them instantly.
+### Snippet Manager
+Users can select code, save it as a named snippet, and reinsert it anywhere later.
 
-###  Image Manager
-Add images, preview them visually, and auto-insert paths into your code.
+### Image Manager
+A separate image window allows adding and previewing images for use in projects.
 
-###  Instant Code Runner
-- Run Python scripts directly inside the IDE  
-- View HTML in the built-in preview  
-- Output appears in the integrated console  
+### Integrated Output Console
+Python scripts can be run directly inside IKA, with output displayed in the built-in console.
 
-###  Minimal Toolbar Mode
-Inspired by professional editors — clean, simple, powerful.
-
-###  Custom App Branding
-IKA includes a glowing purple icon and banner designed specifically for the project.
+### Custom Application Branding
+IKA uses a custom icon and a GitHub banner created specifically for the project.
 
 ---
 
-##  Running From Source
+## Running from Source
 
-### 1. Install dependencies:
+1. Install required packages:
+
 ```bash
 pip install pillow pyinstaller tkinterweb
