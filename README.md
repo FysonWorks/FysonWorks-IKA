@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/FysonWorks/FysonWorks-IKA/main/.github/assets/banner%20IKA.png" width="100%">
+  <img src="IKA%20source/Assets/banner%20IKA.png" width="100%">
 </p>
+
 
 
 # IKA – FysonWorks IDE
