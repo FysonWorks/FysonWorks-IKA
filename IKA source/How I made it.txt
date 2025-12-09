@@ -1,0 +1,65 @@
+IKA – How I Made It
+--------------------
+
+IKA began as a custom idea to create my own coding environment. 
+I wanted something modern, dark-themed, and simple.
+Below is the full process of how I created the IKA IDE.
+
+1. Concept & Planning
+   - I wanted an editor that wasn’t just another code editor.
+   - Features I chose:
+       • Dark UI
+       • Python & HTML support
+       • Live HTML preview
+       • Chunk-based editing system
+       • Snippet manager
+       • Image manager
+   - I also planned a custom “I” logo with purple neon glow.
+
+2. Designing the UI
+   - Used Python with Tkinter to build the main window.
+   - Added:
+       • Menu bar (File, Edit, Tools, etc.)
+       • Editor panel
+       • Output console
+       • Live HTML preview panel
+   - Styled it with dark colors (#111, #1c1c1c, #222, #333)
+   - Added line numbers, scrolling, and resizing.
+
+3. Custom Features
+   - Snippets:
+       • Highlight text → Add as snippet → Reuse later
+   - Chunks:
+       • Create multiple code chunks and stitch them together
+   - HTML Preview:
+       • Auto-refreshes when typing HTML
+   - Image Manager:
+       • Opens a window to store and use images inside projects
+
+4. Branding & Icon Creation
+   - Created a custom purple glowing "I" icon based on a sketch.
+   - Made a banner for GitHub inside `.github/assets/`.
+   - Generated a 1024px PNG, then converted to .ICO for Windows.
+
+5. Building the EXE
+   - Wrote a custom auto-builder script (build_ika.py - Find in build tools folder)
+   - The script:
+       • Finds Downloads folder
+       • Converts ioc.png → Ika.ico
+       • Runs PyInstaller to make IKA.exe
+   - Final EXE is fully standalone:
+       • Does not need Python installed
+       • Works on any Windows computer
+
+6. GitHub Setup
+   - Added banner, icon, README.md
+   - Documented features, build instructions, and project structure.
+   - Uploaded assets into `.github/assets/`
+   - README automatically loads banner at top.
+
+7. Result
+   - IKA is a modern, dark, lightweight IDE made entirely with Python.
+   - It supports multiple languages, snippets, chunks, preview tools, and more.
+   - Fully packaged into a Windows EXE with custom branding.
+
+- Created by Caleb (FysonWorks)
