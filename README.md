@@ -7,41 +7,41 @@
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🖥️ Modern Dark UI
+###  Modern Dark UI
 IKA uses a custom dark theme with clean typography and an easy-to-read layout.
 
-### 🔤 Multi-Language Support
+###  Multi-Language Support
 - **Python**
 - **HTML** (with live preview panel)
 
-### ⚡ Live HTML Preview
+###  Live HTML Preview
 As you type HTML, the preview updates automatically.
 
-### 📦 Chunk Editor
+###  Chunk Editor
 Break your code into pieces (chunks), edit separately, then **stitch** them together into the main editor.
 
-### 📝 Snippet Manager
+###  Snippet Manager
 Save commonly used code blocks and re-use them instantly.
 
-### 🖼️ Image Manager
+###  Image Manager
 Add images, preview them visually, and auto-insert paths into your code.
 
-### ▶ Instant Code Runner
+###  Instant Code Runner
 - Run Python scripts directly inside the IDE  
 - View HTML in the built-in preview  
 - Output appears in the integrated console  
 
-### 🪟 Minimal Toolbar Mode
+###  Minimal Toolbar Mode
 Inspired by professional editors — clean, simple, powerful.
 
-### 🎨 Custom App Branding
+###  Custom App Branding
 IKA includes a glowing purple icon and banner designed specifically for the project.
 
 ---
 
-## 🛠️ Running From Source
+##  Running From Source
 
 ### 1. Install dependencies:
 ```bash
